@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: nginx:1.25.0  # This will be updated during demo
+        image: nginx:1.26.0  # This will be updated during demo
         ports:
         - containerPort: 80
 ---
